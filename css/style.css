@@ -65,8 +65,7 @@ a{
 }
 
 button {
-    padding: 12px;
-    width: 15%;
+   padding: 12px;
     background-color: red;
     border: none;
     color: white;
@@ -112,18 +111,19 @@ button {
     
 }
 
+.detail button{
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.detail a{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
 .detail{
     text-align: center;
 }
 
-.detail button {
-    padding: 8px;
-    width: 23%;
-    background-color: #2120201a;
-    border: none;
-    color: red;
-    font-family: cursive;
-}
 
 .detail h2{
     margin: 22px 0 14px 0;
@@ -208,4 +208,84 @@ h5 i{
 .us.flex p{
      padding-left: 33px;
 }
+
+
+.get{
+    text-align: center;
+    background-color: rgb(3, 126, 97);
+    
+}
+
+
+
+.get h1 {
+    color: rgb(2, 2, 64);
+    font-size: 84px;
+    font-family: cursive;
+    margin-bottom: 12px;
+}
+
+.color{
+    width: 49%;
+    text-align: center;
+    background-color: white;
+}
+.conta.flex {
+    height: 164px;
+    margin-bottom: 13px;
+}
+
+.get i {
+    border: none;
+    font-size: 36px;
+    padding-bottom: 18px;
+}
+
+.get h2{
+        color: rgb(2, 2, 64);
+        padding-bottom: 20px;
+}
+
+.get p{
+    font-size: 12px;
+}
+
+.abox{
+    margin-top: 56px;
+    width: 52%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.bbox{
+    position: relative;
+    width: 45%;
+    left: 54%;
+    background-color:rgba(224, 13, 13, 0.67) ;
+}
+.bbox h1 {
+    font-size: 42px;
+    margin: 32px 10px;
+}
+
+input[type="text"] {
+    width: 68%;
+    height: 33px;
+    margin-bottom: 25px;
+}
+
+textarea{
+    width: 68%;
+}
+
+.bbox button {
+    width: 31%;
+    border: 1px solid white;
+    padding: 9px;
+    margin: 8px;
+    background: none;
+    color:  rgb(2, 2, 64);
+}
+
 
